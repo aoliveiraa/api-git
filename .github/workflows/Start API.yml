@@ -22,11 +22,6 @@ jobs:
         cd WebApi2_Estudantes/WebApi2_Estudantes/
         dotnet restore
         
-    - name: Build with dotnet
-      run: |
-        cd WebApi2_Estudantes/WebApi2_Estudantes/
-        dotnet build
-        
     - name: dotnet RUN
       run: |
         cd WebApi2_Estudantes/WebApi2_Estudantes/
