@@ -19,7 +19,7 @@ jobs:
         
     - name: Dotnet Restore
       run: |
-        cd src/Supermercado.API/
+        cd WebApi2_Estudantes/WebApi2_Estudantes/
         dotnet restore
         
     - name: Build with dotnet
